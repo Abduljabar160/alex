@@ -1,0 +1,54 @@
+body {background: #2C3333;}
+h1, h2, h3, h4, h5, h6 {
+  border-bottom: 1px solid #ccc;
+  color: white;
+  padding-bottom: 8px
+}
+.container {
+  margin: auto;
+  width: 350px;
+  text-align: center;
+
+
+}
+.container p{
+  color: white;
+}
+.listFlex {display: flex; justify-content: center;color: white;}
+
+.listFlex p {
+  color: white;
+}
+
+
+img {
+  width: 100%;
+  border-radius: 100%;
+
+}
+
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  
+  .topnav a {
+    float: center;
+    color:  white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .topnav a:hover {
+    background-color: orange;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: orange;
+    color: black;
+  }
